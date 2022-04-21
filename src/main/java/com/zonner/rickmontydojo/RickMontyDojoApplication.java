@@ -9,18 +9,18 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class RickMontyDojoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(RickMontyDojoApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(RickMontyDojoApplication.class, args);
+    }
 
-	@Bean
-	public ObjectMapper objectMapper(){
-		return new ObjectMapper();
-	}
+    @Bean
+    public ObjectMapper objectMapper() {
+        return new ObjectMapper();
+    }
 
-	@Bean
-	public RestTemplate restTemplate(){
-		return new RestTemplate();
-	}
+    @Bean
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
 
 }

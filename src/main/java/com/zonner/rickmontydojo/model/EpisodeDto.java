@@ -7,7 +7,7 @@ import java.util.List;
 
 @Getter
 @Setter
-public class RickModel {
+public class EpisodeDto {
     private int id;
     private String name;
     private String air_date;
